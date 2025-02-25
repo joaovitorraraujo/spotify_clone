@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // const { NODE_ENV } = process.env;
-const URL = "https://deploy-spotify-clone.onrender.com/api";
+const URL = "https://spotify-clone-65ib.onrender.com/api";
 
 const responseArtists = await axios.get(`${URL}/artists`);
 const responseSongs = await axios.get(`${URL}/songs`);
